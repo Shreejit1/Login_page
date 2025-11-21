@@ -1,0 +1,86 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+.heading{
+    text-align: center;
+    color:white;
+    font-size: 2.5rem;
+}
+body{
+    background-color: rgb(197, 250, 252);
+    display: flex;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+    margin:0%;
+    padding: 0%;
+    
+}
+.bg-image{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('./login\ page\ bg.jpg') no-repeat center center;
+    background-size: cover;
+    filter: blur(10px); /* Blur effect */
+    z-index: -1;
+}
+
+.box{
+    /* background-color:rgb(150, 221, 250); */
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 2px solid rgb(47, 147, 255);
+    border-radius: 15px;
+    /* background: linear-gradient(to right,rgb(0, 187, 255), rgb(216, 247, 255));  */
+    
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/014/468/621/small/abstract-digital-technology-background-with-concept-security-vector.jpg') no-repeat center center;
+    background-size: cover;
+    box-shadow: 0px 8px 100px rgb(05, 137, 255);
+    scale:110%
+}
+input{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding:3px;
+    margin-bottom: 10px;
+    margin-left:28px;
+    box-shadow: 0px 2px 4px rgb(147, 248, 255);
+}
+
+#surname{
+    margin-left:0px;
+}
+#email,#pass{
+    width: 336px;
+}
+button{
+    color:white;
+    font-size: 1.1em;
+    font-weight:600;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: hsl(210, 100%, 55%);
+    /* border:1px solid rgb(197, 203, 255) ; */
+    border:none;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgb(146, 197, 255);
+}
+button:hover{
+    scale: 120%;
+    cursor:pointer;
+    background:linear-gradient( to right, rgb(198, 217, 255) , rgb(106, 96, 255)); /* rgb(48, 158, 255);*/
+    color: white;
+    box-shadow: 5px 5px 10px white;
+    animation: 3s;
+}
+
+
+
